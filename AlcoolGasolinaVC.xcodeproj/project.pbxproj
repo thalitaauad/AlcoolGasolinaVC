@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0DB71C3638A2395C196C7C5 /* Pods_AlcoolGasolinaVC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E75780F9460C72CD231268 /* Pods_AlcoolGasolinaVC.framework */; };
 		C82DE02929C0E24F00358055 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82DE02829C0E24F00358055 /* AppDelegate.swift */; };
 		C82DE02B29C0E24F00358055 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82DE02A29C0E24F00358055 /* SceneDelegate.swift */; };
-		C82DE02D29C0E24F00358055 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82DE02C29C0E24F00358055 /* ViewController.swift */; };
-		C82DE03029C0E24F00358055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C82DE02E29C0E24F00358055 /* Main.storyboard */; };
+		C82DE02D29C0E24F00358055 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82DE02C29C0E24F00358055 /* HomeVC.swift */; };
 		C82DE03229C0E25100358055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C82DE03129C0E25100358055 /* Assets.xcassets */; };
 		C82DE03529C0E25100358055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C82DE03329C0E25100358055 /* LaunchScreen.storyboard */; };
+		C82DE03F29C0E53300358055 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82DE03E29C0E53300358055 /* HomeScreen.swift */; };
+		C82DE04229C0FC3900358055 /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82DE04129C0FC3900358055 /* CalculatorVC.swift */; };
+		C82DE04529C0FCFA00358055 /* CalculatorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82DE04429C0FCFA00358055 /* CalculatorScreen.swift */; };
+		C82DE04829C289A700358055 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82DE04729C289A700358055 /* Alert.swift */; };
+		C82DE04B29C3883900358055 /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82DE04A29C3883900358055 /* ResultVC.swift */; };
+		C82DE04E29C388BF00358055 /* ResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82DE04D29C388BF00358055 /* ResultScreen.swift */; };
+		C82DE05129C4EC1900358055 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82DE05029C4EC1900358055 /* UITextField+Extension.swift */; };
+		C82DE05329C4EF0F00358055 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82DE05229C4EF0F00358055 /* UIViewController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		595126C532A96AC86CCDF652 /* Pods-AlcoolGasolinaVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlcoolGasolinaVC.release.xcconfig"; path = "Target Support Files/Pods-AlcoolGasolinaVC/Pods-AlcoolGasolinaVC.release.xcconfig"; sourceTree = "<group>"; };
+		85E75780F9460C72CD231268 /* Pods_AlcoolGasolinaVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlcoolGasolinaVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C82DE02529C0E24F00358055 /* AlcoolGasolinaVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlcoolGasolinaVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C82DE02829C0E24F00358055 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C82DE02A29C0E24F00358055 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C82DE02C29C0E24F00358055 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C82DE02F29C0E24F00358055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C82DE02C29C0E24F00358055 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		C82DE03129C0E25100358055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C82DE03429C0E25100358055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C82DE03629C0E25100358055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82DE03E29C0E53300358055 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		C82DE04129C0FC3900358055 /* CalculatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVC.swift; sourceTree = "<group>"; };
+		C82DE04429C0FCFA00358055 /* CalculatorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorScreen.swift; sourceTree = "<group>"; };
+		C82DE04729C289A700358055 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		C82DE04A29C3883900358055 /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		C82DE04D29C388BF00358055 /* ResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreen.swift; sourceTree = "<group>"; };
+		C82DE05029C4EC1900358055 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		C82DE05229C4EF0F00358055 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		E4DDF00AF79175498F81AD28 /* Pods-AlcoolGasolinaVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlcoolGasolinaVC.debug.xcconfig"; path = "Target Support Files/Pods-AlcoolGasolinaVC/Pods-AlcoolGasolinaVC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0DB71C3638A2395C196C7C5 /* Pods_AlcoolGasolinaVC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47A0A17D5420794A8FC2DC78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85E75780F9460C72CD231268 /* Pods_AlcoolGasolinaVC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6663D8E52F0903D71CC5AC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4DDF00AF79175498F81AD28 /* Pods-AlcoolGasolinaVC.debug.xcconfig */,
+				595126C532A96AC86CCDF652 /* Pods-AlcoolGasolinaVC.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C82DE01C29C0E24F00358055 = {
 			isa = PBXGroup;
 			children = (
 				C82DE02729C0E24F00358055 /* AlcoolGasolinaVC */,
 				C82DE02629C0E24F00358055 /* Products */,
+				B6663D8E52F0903D71CC5AC5 /* Pods */,
+				47A0A17D5420794A8FC2DC78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +95,86 @@
 		C82DE02729C0E24F00358055 /* AlcoolGasolinaVC */ = {
 			isa = PBXGroup;
 			children = (
+				C82DE04F29C4EBF300358055 /* Extension */,
+				C82DE04929C3880900358055 /* Result */,
+				C82DE04629C2897C00358055 /* Alert */,
+				C82DE04029C0FC1100358055 /* Calculator */,
+				C82DE03C29C0E4EB00358055 /* Home */,
 				C82DE02829C0E24F00358055 /* AppDelegate.swift */,
 				C82DE02A29C0E24F00358055 /* SceneDelegate.swift */,
-				C82DE02C29C0E24F00358055 /* ViewController.swift */,
-				C82DE02E29C0E24F00358055 /* Main.storyboard */,
 				C82DE03129C0E25100358055 /* Assets.xcassets */,
 				C82DE03329C0E25100358055 /* LaunchScreen.storyboard */,
 				C82DE03629C0E25100358055 /* Info.plist */,
 			);
 			path = AlcoolGasolinaVC;
+			sourceTree = "<group>";
+		};
+		C82DE03C29C0E4EB00358055 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C82DE03D29C0E4F000358055 /* Screen */,
+				C82DE02C29C0E24F00358055 /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C82DE03D29C0E4F000358055 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				C82DE03E29C0E53300358055 /* HomeScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		C82DE04029C0FC1100358055 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				C82DE04329C0FCD000358055 /* Screen */,
+				C82DE04129C0FC3900358055 /* CalculatorVC.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		C82DE04329C0FCD000358055 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				C82DE04429C0FCFA00358055 /* CalculatorScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		C82DE04629C2897C00358055 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				C82DE04729C289A700358055 /* Alert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		C82DE04929C3880900358055 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				C82DE04C29C3887C00358055 /* Screen */,
+				C82DE04A29C3883900358055 /* ResultVC.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		C82DE04C29C3887C00358055 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				C82DE04D29C388BF00358055 /* ResultScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		C82DE04F29C4EBF300358055 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C82DE05029C4EC1900358055 /* UITextField+Extension.swift */,
+				C82DE05229C4EF0F00358055 /* UIViewController+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C82DE03929C0E25100358055 /* Build configuration list for PBXNativeTarget "AlcoolGasolinaVC" */;
 			buildPhases = (
+				71D838A7B51DF983BA798F4D /* [CP] Check Pods Manifest.lock */,
 				C82DE02129C0E24F00358055 /* Sources */,
 				C82DE02229C0E24F00358055 /* Frameworks */,
 				C82DE02329C0E24F00358055 /* Resources */,
+				CA3A74227A8B826AA8C7FE5B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +239,75 @@
 			files = (
 				C82DE03529C0E25100358055 /* LaunchScreen.storyboard in Resources */,
 				C82DE03229C0E25100358055 /* Assets.xcassets in Resources */,
-				C82DE03029C0E24F00358055 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71D838A7B51DF983BA798F4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlcoolGasolinaVC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA3A74227A8B826AA8C7FE5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlcoolGasolinaVC/Pods-AlcoolGasolinaVC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlcoolGasolinaVC/Pods-AlcoolGasolinaVC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlcoolGasolinaVC/Pods-AlcoolGasolinaVC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C82DE02129C0E24F00358055 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C82DE02D29C0E24F00358055 /* ViewController.swift in Sources */,
+				C82DE04229C0FC3900358055 /* CalculatorVC.swift in Sources */,
+				C82DE05329C4EF0F00358055 /* UIViewController+Extension.swift in Sources */,
+				C82DE03F29C0E53300358055 /* HomeScreen.swift in Sources */,
+				C82DE02D29C0E24F00358055 /* HomeVC.swift in Sources */,
 				C82DE02929C0E24F00358055 /* AppDelegate.swift in Sources */,
+				C82DE04E29C388BF00358055 /* ResultScreen.swift in Sources */,
+				C82DE05129C4EC1900358055 /* UITextField+Extension.swift in Sources */,
 				C82DE02B29C0E24F00358055 /* SceneDelegate.swift in Sources */,
+				C82DE04529C0FCFA00358055 /* CalculatorScreen.swift in Sources */,
+				C82DE04B29C3883900358055 /* ResultVC.swift in Sources */,
+				C82DE04829C289A700358055 /* Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C82DE02E29C0E24F00358055 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C82DE02F29C0E24F00358055 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C82DE03329C0E25100358055 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +435,7 @@
 		};
 		C82DE03A29C0E25100358055 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4DDF00AF79175498F81AD28 /* Pods-AlcoolGasolinaVC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +446,6 @@
 				INFOPLIST_FILE = AlcoolGasolinaVC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,14 +455,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thalita.AlcoolGasolinaVC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C82DE03B29C0E25100358055 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595126C532A96AC86CCDF652 /* Pods-AlcoolGasolinaVC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +477,6 @@
 				INFOPLIST_FILE = AlcoolGasolinaVC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -330,9 +486,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thalita.AlcoolGasolinaVC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
